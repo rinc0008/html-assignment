@@ -4,29 +4,23 @@
         <!--Doc Info-->
         <meta charset="utf-8">
         <title>Simple HTML Website</title>
-        <style>
-            body {
-                background-color: rgb(176, 209, 231);
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: #414350;
-                text-align: left;
-            }
-            blockquote {
-                color: rgb(46, 74, 126);
-            }
-        </style>
+        <link href="/Users/juliirincon/Documents/html-assignment/css/style.css" rel= "stylesheet">
     </head>
     <body>
         <!--About me info-->
       <header>
-          <h1>Carol Rincon</h1>
+          <h1 class="site-title">Carol Rincon</h1>
           <nav>
+              <ul>
+                <li>
             <a>HOME</a> - <a href="notes.html">NOTES</a>
+                </li>
+              </ul>
          </nav>
         </header>
-    <img src="images/lilo-image.png" alt="My cat Lilo" width="250" height="250">
+    <img id="my-image2" src="images/lilo-image.png" alt="My cat Lilo" width="250" height="250">
         <main>
-            <article>
+            <article id="articleone">
                 <h2><em>About Me</em></h2>
                 
                 <p>I'm a 22 years old Colombian Filmmaker, but right now I'm an international student at Algonquin College, in Canada.
@@ -42,9 +36,9 @@
                         <li>Stop Motion</li>
                       </ul>
                       
-                <p>If you are wandering if I have time for do <em> all this...</em> well just wait to know that I also opened the <strong> <a href="https://www.algonquinsa.com/profile/stop-motion-club/"><abbr title="Algonquin College">AC</abbr> Stop Motion Club</a></strong>. We are just starting like a small community, but I have in mind many and fun plans to make it a pleasant club to be part and proud of.</p>
+                <p>If you are wandering if I have time for do <em> all this...</em> well just wait to know that I also opened the <strong> <a class="noline1" href="https://www.algonquinsa.com/profile/stop-motion-club/"><abbr title="Algonquin College">AC</abbr> Stop Motion Club</a></strong>. We are just starting like a small community, but I have in mind many and fun plans to make it a pleasant club to be part and proud of.</p>
 
-                <blockquote cite="https://myanimelist.net/featured/493/25_Inspiring_Quotes_from_Fairy_Tail">
+                <blockquote class="erza" cite="https://myanimelist.net/featured/493/25_Inspiring_Quotes_from_Fairy_Tail">
                 <strong><em>“If lives were lost today, then lives were also born. How important each day is... depends on how important you feel it is to you.” </em></strong><small>- Erza Scarlet</small>
                 </blockquote>
             </article>
@@ -52,7 +46,7 @@
         <footer>
             <br>
             <p><small>Author: Carol Rincon - Copyright ©</small></p>
-            <p><small><a href="mailto:rinc0008@algonquinlive.com">rinc0008@algonquinlive.com</a></small></p>
+            <p><small><a class="noline1" href="mailto:rinc0008@algonquinlive.com">rinc0008@algonquinlive.com</a></small></p>
         </footer>
     </body>
 </html>

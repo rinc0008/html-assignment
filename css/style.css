@@ -1,0 +1,89 @@
+/*This is a CSS*/
+/*TAG selectors*/
+body {
+    background-color: rgb(154, 101, 197);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,footer{
+    background:rgb(86, 207, 231);
+    padding: 10px;
+    border-bottom: 8px dotted black;
+    border-top: 8px dotted black;
+}
+
+/*ID selector*/
+
+.site-title{
+    color: rgb(90, 47, 139);
+}
+
+#my-image {
+   box-shadow: 0px 0px 2px 1px black;
+}
+
+article ul li:nth-child(odd) {
+    background: rgb(87, 84, 133);
+  }
+
+article ul li {
+    list-style-type: square;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: goldenrod;
+    color:blueviolet;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    color: rgb(220, 205, 226);
+    text-decoration: none;
+    padding: 15px;
+    background: grey;
+    border-radius: 30px;
+}
+
+nav ul li a:hover{
+    color: cyan;
+    background: rgb(72, 5, 148);
+}
+
+nav ul li a:active {
+    color: cyan;
+}
+
+.noline1 {
+    text-decoration: none;
+}
+
+#my-image2 {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#list{
+    color: rgb(188, 193, 236);
+    padding: 18px;
+    border: 3px dotted rgb(99, 2, 179);
+}
+#articleone{
+    color: rgb(188, 193, 236);
+    padding: 18px;
+    border: 3px dotted rgb(99, 2, 179);
+}
+.erza {
+    color: rgb(72, 62, 160);
+}
+

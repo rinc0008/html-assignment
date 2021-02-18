@@ -4,26 +4,23 @@
         <!--Doc Info-->
         <meta charset="utf-8">
         <title>Simple HTML Website</title>
-        <style>
-            body {
-                background-color: rgb(230, 231, 176);
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: #414350;
-                text-align: left;
-            }
-        </style>
+        <link href="/Users/juliirincon/Documents/html-assignment/css/style.css" rel= "stylesheet">
     </head>   
     <body>
         <!--About me info-->
         <header>
-            <h1>My HTML Notes</h1>
+            <h1 class="site-title">My HTML Notes</h1>
             <nav>
+                <ul>
+                    <li>
                <a href="index.html">HOME</a> - <a>NOTES</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <main>
-       <img src="images/photo-1.jpg" alt="Lilo portrait" width="350">
-            <dl>
+       <img id="my-image" src="images/photo-1.jpg" alt="Lilo portrait" width="350">
+            <dl id="list">
                 <dt>&lt;dl&gt; Description list tag</dt>
                 <dd>Uses &lt;dt&gt; to define a term and it's complimented by &lt;dd&gt; tag to add its description.</dd>
                 
@@ -41,7 +38,7 @@
               </dl>
         </main>
         <footer><p>Author: Carol Rincon - Copyright ©</p>
-            <p><a href="mailto:rinc0008@algonquinlive.com">rinc0008@algonquinlive.com</a></p>
+            <p><a class="noline1" href="mailto:rinc0008@algonquinlive.com">rinc0008@algonquinlive.com</a></p>
         </footer>
     </body>
 </html>
